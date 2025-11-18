@@ -24,7 +24,7 @@ submitted = st.form_submit_button("Add Expense")
       "Description":[description]
     })
     st.session_state.expenses = pd.concat([st.session_state.expenses, new_expense], ignore_index=True)
-    st.success("Expense added successfully)
+    st.success("Expense added successfully!")
 
 if not st.session_state.expenses.empty:
   st.subheader("Your Expenses")
