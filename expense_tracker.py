@@ -14,7 +14,7 @@ with st.form("expense_form"):
   amount = st.number_input("Amount", min_value=0.0, step=0.01)
   description = st.text_input("Description")
 
-submitted = st.form_submit_button("Add Expense")
+  submitted = st.form_submit_button("Add Expense")
 
   if submitted:
     new_expense = pd.DataFrame({
