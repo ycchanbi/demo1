@@ -1,5 +1,5 @@
 import streamlit as st
-import panda as pd
+import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title("Personal Expense Tracker")
