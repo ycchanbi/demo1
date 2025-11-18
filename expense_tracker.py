@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.title("Personal Expense Tracker")
 
 if "expense" not in st.session_state:
-  st.session_state.expenses = pd.DataFrame(columns=['Date','Category','Amount','Description']
+  st.session_state.expenses = pd.DataFrame(columns=['Date','Category','Amount','Description'])
 
 with st.form("expense_form"):
   st.subheader("Add New Expense")
