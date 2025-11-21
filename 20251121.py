@@ -58,3 +58,27 @@ with st.expander("More Information"):
     st.write("# Data was collected through surveys and sales reports.")
     st.write("- Additional details on data collection methods.")
     st.write("## Data was collected through surveys and sales reports.")
+
+# Dynamic Containers
+placeholder = st.empty()
+
+# Simulate loading data and updating the placeholder
+for i in range(5):
+    placeholder.write(f"Loading data... {i*20}% complete")
+    time.sleep(1)
+
+# Once loading is complete, display the final message
+placeholder.write("Data loading complete. Displaying business insights.")  
+
+# Display dynamic business insights
+business_insights = [
+    "Revenue increased by 15% in Q1 2024.",
+    "Customer satisfaction improved by 10%.",
+    "Market trends show a growing demand for eco-friendly products."
+]
+for insight in business_insights:
+    placeholder.write(insight)
+    time.sleep(2)
+
+
+
