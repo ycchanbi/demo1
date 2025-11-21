@@ -55,4 +55,6 @@ with tab3:
 
 with st.expander("More Information"):
     st.write("Additional details on data collection methods.")
-    st.write("Data was collected through surveys and sales reports.")
+    st.write("# Data was collected through surveys and sales reports.")
+    st.write("Additional details on data collection methods.")
+    st.write("## Data was collected through surveys and sales reports.")
