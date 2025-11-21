@@ -13,4 +13,7 @@ st.write(msg)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-  st.header("Header")
+  st.header("Col 1")
+
+with col2:
+  st.header("Col 2")
