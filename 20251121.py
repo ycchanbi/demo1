@@ -41,7 +41,8 @@ with tab2:
     ]
     idx = 1
     for feedback in customer_feedback:
-        st.write(f"{idx}, {feedback}")
+        st.write(f"{idx}. {feedback}")
+        idx = + 1
 with tab3:
     st.write("Content for Market Trends")
     market_trends = {
