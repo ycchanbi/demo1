@@ -8,6 +8,9 @@ import numpy as np
 # -------------------------------
 st.title("📊 Business Sales Dashboard")
 st.write("Analyze monthly sales data interactively!")
+st.write("Hello, Streamlit!")
+st.write(12345)
+st.write({"Name": "Alice", "Age": 30})
 
 # -------------------------------
 # Sample Data
