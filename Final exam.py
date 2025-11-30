@@ -30,7 +30,7 @@ selected_months = st.sidebar.multiselect("Select Months", months, default=months
 show_expenses = st.sidebar.checkbox("Show Expenses", value=True)
 
 # Filter data
-# filtered_data = data[data["Month"].isin(selected_months)]
+filtered_data = data[data["Month"].isin(selected_months)]
 
 # -------------------------------
 # Display Data Table
