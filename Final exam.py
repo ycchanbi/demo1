@@ -22,7 +22,7 @@ st.line_chart(df.set_index('date'))
 # Adding a slider for user input
 sales_threshold = st.slider("Sales threshold", 100, 500, 300)
 
-# # Filtering and displaying data based on user input
-# filtered_data = df[df['sales'] >= sales_threshold]
-# st.write(f"Months with sales above {sales_threshold}")
-# st.write(filtered_data)
+# Filtering and displaying data based on user input
+filtered_data = df[df['sales'] >= sales_threshold]
+st.write(f"Months with sales above {sales_threshold}")
+st.write(filtered_data)
