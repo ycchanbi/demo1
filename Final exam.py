@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 st.header("Testing")
-st.writer("Testing")
+st.write("Testing")
 st.subheader("Testing")
 st.markdown("### Testing")
 st.markdown("## Testing")
