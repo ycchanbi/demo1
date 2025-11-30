@@ -49,7 +49,4 @@ st.bar_chart(df[['Product', 'Sales']].set_index('Product'))
 st.markdown("### Customer Engagement by Product")
 st.scatter_chart(df[['Product', 'Customers']].set_index('Product'))
 
-st.markdown("Pie chart")
-st.pie_chart(sales_data)
-
 # Step 6: Run the Streamlit App (run in terminal: streamlit run app.py)
