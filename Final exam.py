@@ -10,10 +10,10 @@ st.title("Business Data Dashboard")
 # Introduction text
 st.write("This dashboard helps visualize sales data over time.")
 
-# # Sample data
-# date_rng = pd.date_range(start='1/1/2023', end='12/31/2023', freq='M')
-# df = pd.DataFrame(date_rng, columns=['date'])
-# df['sales'] = np.random.randint(100, 500, size=(len(date_rng)))
+# Sample data
+date_rng = pd.date_range(start='1/1/2023', end='12/31/2023', freq='M')
+df = pd.DataFrame(date_rng, columns=['date'])
+df['sales'] = np.random.randint(100, 500, size=(len(date_rng)))
 
 # # Data visualization with Streamlit
 # st.subheader("Monthly Sales Data")
