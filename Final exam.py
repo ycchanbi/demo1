@@ -19,8 +19,8 @@ df['sales'] = np.random.randint(100, 500, size=(len(date_rng)))
 st.subheader("Monthly Sales Data")
 st.line_chart(df.set_index('date'))
 
-# # Adding a slider for user input
-# sales_threshold = st.slider("Sales threshold", 100, 500, 300)
+# Adding a slider for user input
+sales_threshold = st.slider("Sales threshold", 100, 500, 300)
 
 # # Filtering and displaying data based on user input
 # filtered_data = df[df['sales'] >= sales_threshold]
