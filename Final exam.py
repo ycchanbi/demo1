@@ -5,6 +5,14 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+st.header("Testing")
+st.writer("Testing")
+st.subheader("Testing")
+st.markdown("### Testing")
+st.markdown("## Testing")
+st.markdown("# Testing")
+st.markdown("Testing")
+
 # Step 3: Generate Random Sales Data
 sales_data = np.random.rand(100) * 1000
 
