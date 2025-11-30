@@ -15,9 +15,9 @@ date_rng = pd.date_range(start='1/1/2023', end='12/31/2023', freq='M')
 df = pd.DataFrame(date_rng, columns=['date'])
 df['sales'] = np.random.randint(100, 500, size=(len(date_rng)))
 
-# # Data visualization with Streamlit
-# st.subheader("Monthly Sales Data")
-# st.line_chart(df.set_index('date'))
+# Data visualization with Streamlit
+st.subheader("Monthly Sales Data")
+st.line_chart(df.set_index('date'))
 
 # # Adding a slider for user input
 # sales_threshold = st.slider("Sales threshold", 100, 500, 300)
